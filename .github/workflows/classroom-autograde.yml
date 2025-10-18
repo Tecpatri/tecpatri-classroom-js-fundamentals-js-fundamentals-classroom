@@ -1,0 +1,22 @@
+name: Classroom Autograde
+on:
+  pull_request:
+    branches: [ main ]
+jobs:
+  autograde:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npm ci
+      - name: Run tests with JSON output
+        run: |
+          npx jest --json --outputFile=results.json || true
+          node autograde/summarize.js
+      - name: Upload autograde artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: classroom-autograde
+          path: autograde-summary.json
