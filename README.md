@@ -57,3 +57,9 @@ npm run lint
 # Check formatting
 npm run format
 ```
+
+## Getting Feedback
+
+  A "Feedback" pull request has been automatically created in your repository. Your
+  instructor may use this to provide feedback on your code. Check it regularly for
+  comments and suggestions.
