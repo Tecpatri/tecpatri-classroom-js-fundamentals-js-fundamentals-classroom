@@ -10,7 +10,7 @@
  *   countDown(3) => [3, 2, 1]
  *   countDown(0) => []
  */
-export function countDown(n) {
+export function countDown (n) {
   // TODO: Use a while loop to count from n down to 1
   // Create an array to store the numbers
   // While n is greater than 0, add n to the array and decrement n
@@ -27,7 +27,7 @@ export function countDown(n) {
  *   sumNumbers([]) => 0
  *   sumNumbers([5]) => 5
  */
-export function sumNumbers(numbers) {
+export function sumNumbers (numbers) {
   // TODO: Use a for loop to iterate through the array
   // Initialize a sum variable to 0
   // Add each number to the sum
@@ -46,7 +46,7 @@ export function sumNumbers(numbers) {
  *   findFirstNegative([1, 2, 3]) => null
  *   findFirstNegative([-1, -2]) => -1
  */
-export function findFirstNegative(numbers) {
+export function findFirstNegative (numbers) {
   // TODO: Use a for loop to iterate through the array
   // Check if each number is negative (< 0)
   // If negative, use break to exit the loop and return the number
@@ -65,7 +65,7 @@ export function findFirstNegative(numbers) {
  *   skipEvens(5) => [1, 3, 5]
  *   skipEvens(1) => [1]
  */
-export function skipEvens(n) {
+export function skipEvens (n) {
   // TODO: Use a for loop from 1 to n
   // Check if the number is even (i % 2 === 0)
   // If even, use continue to skip to the next iteration
@@ -84,7 +84,7 @@ export function skipEvens(n) {
  *   let count = 0;
  *   repeatUntilValid(() => ++count === 3) => 3
  */
-export function repeatUntilValid(validator) {
+export function repeatUntilValid (validator) {
   // TODO: Use a do...while loop
   // Initialize an attempts counter to 0
   // In the do block, increment attempts and call validator()
@@ -106,7 +106,7 @@ export function repeatUntilValid(validator) {
  *     [3, 6, 9]
  *   ]
  */
-export function createMultiplicationTable(size) {
+export function createMultiplicationTable (size) {
   // TODO: Use nested for loops
   // Outer loop: iterate from 1 to size (row)
   // Inner loop: iterate from 1 to size (column)

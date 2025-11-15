@@ -18,7 +18,7 @@
  * Example: getGrade(95) -> 'A'
  * Example: getGrade(72) -> 'C'
  */
-export function getGrade(score) {
+export function getGrade (score) {
   // TODO: Use if/else if/else to return the appropriate letter grade
 }
 
@@ -32,7 +32,7 @@ export function getGrade(score) {
  * Example: getAbsoluteValue(-5) -> 5
  * Example: getAbsoluteValue(3) -> 3
  */
-export function getAbsoluteValue(num) {
+export function getAbsoluteValue (num) {
   // TODO: Use an if/else statement
   // If num is negative, return -num
   // Otherwise, return num
@@ -46,7 +46,7 @@ export function getAbsoluteValue(num) {
  * Example: canVote(20) -> true
  * Example: canVote(16) -> false
  */
-export function canVote(age) {
+export function canVote (age) {
   // TODO: Use an if/else statement to return true or false
 }
 
@@ -59,7 +59,7 @@ export function canVote(age) {
  * Example: getMax(10, 5) -> 10
  * Example: getMax(3, 8) -> 8
  */
-export function getMax(a, b) {
+export function getMax (a, b) {
   // TODO: Use the ternary operator (? :)
   // Format: condition ? valueIfTrue : valueIfFalse
 }
@@ -80,7 +80,7 @@ export function getMax(a, b) {
  * Example: getFizzBuzz(10) -> 'Buzz'
  * Example: getFizzBuzz(7) -> '7'
  */
-export function getFizzBuzz(num) {
+export function getFizzBuzz (num) {
   // TODO: Use if/else if/else statements
   // IMPORTANT: Check for divisibility by both 3 AND 5 first!
   // Hint: Use the % (modulo) operator to check divisibility
@@ -101,7 +101,7 @@ export function getFizzBuzz(num) {
  * Example: checkSign(-3) -> 'negative'
  * Example: checkSign(0) -> 'zero'
  */
-export function checkSign(num) {
+export function checkSign (num) {
   // TODO: Use if/else if/else to check the sign
 }
 
@@ -114,7 +114,7 @@ export function checkSign(num) {
  * Example: checkTruthiness(0) -> 'falsy'
  * Example: checkTruthiness('') -> 'falsy'
  */
-export function checkTruthiness(value) {
+export function checkTruthiness (value) {
   // TODO: Use an if/else statement
   // If value is truthy, return 'truthy', else return 'falsy'
 }
@@ -132,6 +132,6 @@ export function checkTruthiness(value) {
  * Example: getDiscountMessage(75) -> '10% discount'
  * Example: getDiscountMessage(30) -> 'No discount'
  */
-export function getDiscountMessage(amount) {
+export function getDiscountMessage (amount) {
   // TODO: Use if/else if/else statements
 }

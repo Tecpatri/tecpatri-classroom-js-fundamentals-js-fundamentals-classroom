@@ -5,7 +5,7 @@
  * - result: the converted string
  * - type: typeof result (should be "string")
  */
-export function convertToString(value) {
+export function convertToString (value) {
   // TODO: Convert value to string using String()
   // TODO: Return { result: converted value, type: typeof converted value }
 }
@@ -21,7 +21,7 @@ export function convertToString(value) {
  * - "   " (whitespace) -> 0
  * - "123abc" -> NaN
  */
-export function convertToNumber(value) {
+export function convertToNumber (value) {
   // TODO: Convert value to number using Number()
   // TODO: Return the result
 }
@@ -33,7 +33,7 @@ export function convertToNumber(value) {
  * Remember falsy values: 0, "", null, undefined, NaN
  * Everything else is truthy!
  */
-export function convertToBoolean(value) {
+export function convertToBoolean (value) {
   // TODO: Convert value to boolean using Boolean()
   // TODO: Return the result
 }
@@ -48,7 +48,7 @@ export function convertToBoolean(value) {
  *   emptyStringToNumber: Number("")    // Should be 0
  * }
  */
-export function handleConversionEdgeCases() {
+export function handleConversionEdgeCases () {
   // TODO: Return an object with the three conversions above
 }
 
@@ -63,7 +63,7 @@ export function handleConversionEdgeCases() {
  *   unaryPlus: +"42"                  // Converts to number: 42
  * }
  */
-export function demonstrateImplicitConversion() {
+export function demonstrateImplicitConversion () {
   // TODO: Return an object with the four implicit conversions above
 }
 
@@ -75,7 +75,7 @@ export function demonstrateImplicitConversion() {
  *
  * Use Boolean conversion: !Boolean(value) or simply !value
  */
-export function isFalsy(value) {
+export function isFalsy (value) {
   // TODO: Return true if value is falsy, false if truthy
   // Hint: Use !value or !Boolean(value)
 }

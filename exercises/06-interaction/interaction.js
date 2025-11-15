@@ -6,7 +6,7 @@
  *
  * Return what alertFn returns (should be undefined).
  */
-export function simulateAlert(alertFn, message) {
+export function simulateAlert (alertFn, message) {
   // TODO: Call alertFn with message
   // TODO: Return the result of alertFn (which should be undefined)
 }
@@ -19,7 +19,7 @@ export function simulateAlert(alertFn, message) {
  *
  * Return a greeting: "You entered: [result]" or "No input provided" if null.
  */
-export function simulatePrompt(promptFn, question) {
+export function simulatePrompt (promptFn, question) {
   // TODO: Call promptFn with question and store result
   // TODO: If result is null, return "No input provided"
   // TODO: Otherwise, return "You entered: [result]"
@@ -33,7 +33,7 @@ export function simulatePrompt(promptFn, question) {
  *
  * Return "Confirmed" if true, "Cancelled" if false.
  */
-export function simulateConfirm(confirmFn, question) {
+export function simulateConfirm (confirmFn, question) {
   // TODO: Call confirmFn with question
   // TODO: Return "Confirmed" if true, "Cancelled" if false
 }
@@ -47,7 +47,7 @@ export function simulateConfirm(confirmFn, question) {
  *
  * Return: "Welcome, [name]!"
  */
-export function handlePromptCancel(promptFn) {
+export function handlePromptCancel (promptFn) {
   // TODO: Call promptFn with "What is your name?"
   // TODO: If result is null, set name to "Guest"
   // TODO: Otherwise, set name to the result
@@ -63,7 +63,7 @@ export function handlePromptCancel(promptFn) {
  *   - If prompt returns null, return "Name required"
  *   - If prompt returns a name, return "Registered: [name]"
  */
-export function combineInteractions(confirmFn, promptFn) {
+export function combineInteractions (confirmFn, promptFn) {
   // TODO: Call confirmFn with "Do you want to enter your name?"
   // TODO: If false, return "Registration cancelled"
   // TODO: If true, call promptFn with "Enter your name:"
@@ -83,7 +83,7 @@ export function combineInteractions(confirmFn, promptFn) {
  *   type: the typeof the return value
  * }
  */
-export function promptReturnsString(promptFn) {
+export function promptReturnsString (promptFn) {
   // TODO: Call promptFn with "Enter a number:"
   // TODO: Return { value: result, type: typeof result }
 }

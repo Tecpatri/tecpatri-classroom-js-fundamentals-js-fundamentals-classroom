@@ -14,7 +14,7 @@
  * Example: getFirstTruthy(0, 'hello', 'world') -> 'hello'
  * Example: getFirstTruthy('', null, 'default') -> 'default'
  */
-export function getFirstTruthy(a, b, c) {
+export function getFirstTruthy (a, b, c) {
   // TODO: Chain OR operators to return first truthy value
   // Format: a || b || c
 }
@@ -30,7 +30,7 @@ export function getFirstTruthy(a, b, c) {
  * Example: getLastTruthy(1, 2, 3) -> 3
  * Example: getLastTruthy('hello', 0, 'world') -> 0
  */
-export function getLastTruthy(a, b, c) {
+export function getLastTruthy (a, b, c) {
   // TODO: Chain AND operators
   // Format: a && b && c
   // Remember: AND returns first falsy or last value if all truthy
@@ -45,7 +45,7 @@ export function getLastTruthy(a, b, c) {
  * Example: hasAccess(true, true) -> true
  * Example: hasAccess(true, false) -> false
  */
-export function hasAccess(isLoggedIn, isActive) {
+export function hasAccess (isLoggedIn, isActive) {
   // TODO: Use AND operator to check both conditions
 }
 
@@ -60,7 +60,7 @@ export function hasAccess(isLoggedIn, isActive) {
  * Example: canDrive(true, true, true) -> true
  * Example: canDrive(true, false, true) -> false
  */
-export function canDrive(hasLicense, isSober, isAdult) {
+export function canDrive (hasLicense, isSober, isAdult) {
   // TODO: Use AND operator to check all three conditions
 }
 
@@ -73,7 +73,7 @@ export function canDrive(hasLicense, isSober, isAdult) {
  * Example: negate(0) -> true
  * Example: negate('hello') -> false
  */
-export function negate(value) {
+export function negate (value) {
   // TODO: Use the NOT operator (!) to negate the value
 }
 
@@ -88,7 +88,7 @@ export function negate(value) {
  * Example: setDefault('John', 'Anonymous') -> 'John'
  * Example: setDefault(0, 100) -> 100
  */
-export function setDefault(value, defaultValue) {
+export function setDefault (value, defaultValue) {
   // TODO: Use OR operator to return value or defaultValue
   // Format: value || defaultValue
 }

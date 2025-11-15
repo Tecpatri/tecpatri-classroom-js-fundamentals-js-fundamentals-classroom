@@ -9,7 +9,7 @@
  *   getDayType('Sat') => 'weekend'
  *   getDayType('Mon') => 'weekday'
  */
-export function getDayType(day) {
+export function getDayType (day) {
   // TODO: Use a switch statement to check the day
   // Group 'Sat' and 'Sun' together to return 'weekend'
   // Use default case to return 'weekday' for all other days
@@ -34,7 +34,7 @@ export function getDayType(day) {
  *   getGrade(82) => 'B'
  *   getGrade(59) => 'F'
  */
-export function getGrade(score) {
+export function getGrade (score) {
   // TODO: Use switch with Math.floor(score / 10) to group scores
   // This allows you to handle ranges with switch
   // Don't forget break statements!
@@ -58,7 +58,7 @@ export function getGrade(score) {
  *   getSeasonByMonth(7) => 'Summer'
  *   getSeasonByMonth(12) => 'Winter'
  */
-export function getSeasonByMonth(month) {
+export function getSeasonByMonth (month) {
   // TODO: Use a switch statement with grouped cases for each season
   // Group months 12, 1, 2 for Winter
   // Group months 3, 4, 5 for Spring, etc.
@@ -77,7 +77,7 @@ export function getSeasonByMonth(month) {
  *   interpretStatusCode(404) => 'Not Found'
  *   interpretStatusCode(500) => 'Internal Server Error'
  */
-export function interpretStatusCode(code) {
+export function interpretStatusCode (code) {
   // TODO: Use a switch statement to handle these status codes:
   // 200: 'OK'
   // 201: 'Created'
@@ -106,7 +106,7 @@ export function interpretStatusCode(code) {
  *   calculateShipping('CA') => 10
  *   calculateShipping('UK') => 15
  */
-export function calculateShipping(country) {
+export function calculateShipping (country) {
   // TODO: Use a switch statement with grouped country codes
   // Group CA and MX together for $10 shipping
   // Group UK, FR, DE together for $15 shipping
@@ -126,7 +126,7 @@ export function calculateShipping(country) {
  *   compareValues(1, '1') => { match: false, message: 'Different types' }
  *   compareValues(1, 2) => { match: false, message: 'Different values' }
  */
-export function compareValues(a, b) {
+export function compareValues (a, b) {
   // TODO: Use a switch statement on 'a' with case 'b'
   // This demonstrates that switch uses strict equality (===)
   // If they match: return { match: true, message: 'Exact match' }

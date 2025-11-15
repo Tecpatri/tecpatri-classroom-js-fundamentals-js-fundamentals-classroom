@@ -11,7 +11,7 @@
  *   getValueOrDefault(null, 10) => 10
  *   getValueOrDefault(undefined, 10) => 10
  */
-export function getValueOrDefault(value, defaultValue) {
+export function getValueOrDefault (value, defaultValue) {
   // TODO: Use the ?? operator to return value if it's not null/undefined,
   // otherwise return defaultValue
 }
@@ -29,7 +29,7 @@ export function getValueOrDefault(value, defaultValue) {
  *   formatUserName({ name: undefined }) => 'Guest'
  *   formatUserName({ name: '' }) => ''  (empty string is valid!)
  */
-export function formatUserName(user) {
+export function formatUserName (user) {
   // TODO: Use the ?? operator to return user.name if it's not null/undefined,
   // otherwise return 'Guest'
 }
@@ -48,7 +48,7 @@ export function formatUserName(user) {
  *   getConfigValue({ volume: null }, 'volume', 50) => 50
  *   getConfigValue({}, 'volume', 50) => 50
  */
-export function getConfigValue(config, key, defaultValue) {
+export function getConfigValue (config, key, defaultValue) {
   // TODO: Use the ?? operator to return config[key] if it's not null/undefined,
   // otherwise return defaultValue
 }
@@ -67,7 +67,7 @@ export function getConfigValue(config, key, defaultValue) {
  *   firstDefinedValue(null, 0, 42) => 0
  *   firstDefinedValue(false, null, true) => false
  */
-export function firstDefinedValue(a, b, c) {
+export function firstDefinedValue (a, b, c) {
   // TODO: Chain the ?? operator to return the first value that is not null/undefined
   // Hint: a ?? b ?? c
 }
@@ -84,7 +84,7 @@ export function firstDefinedValue(a, b, c) {
  *   compareOperators(null) => { withNullish: 'default', withOr: 'default' }
  *   compareOperators('') => { withNullish: '', withOr: 'default' }
  */
-export function compareOperators(value) {
+export function compareOperators (value) {
   // TODO: Return an object with two properties:
   // - withNullish: value ?? 'default'
   // - withOr: value || 'default'

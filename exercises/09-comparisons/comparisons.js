@@ -13,7 +13,7 @@
  * Example: isEqual(5, 5) -> true
  * Example: isEqual(5, '5') -> false
  */
-export function isEqual(a, b) {
+export function isEqual (a, b) {
   // TODO: Return true if a and b are strictly equal using ===
 }
 
@@ -26,7 +26,7 @@ export function isEqual(a, b) {
  * Example: isGreater(10, 5) -> true
  * Example: isGreater(3, 7) -> false
  */
-export function isGreater(a, b) {
+export function isGreater (a, b) {
   // TODO: Return true if a is greater than b
 }
 
@@ -39,7 +39,7 @@ export function isGreater(a, b) {
  * Example: isLessOrEqual(5, 10) -> true
  * Example: isLessOrEqual(5, 5) -> true
  */
-export function isLessOrEqual(a, b) {
+export function isLessOrEqual (a, b) {
   // TODO: Return true if a is less than or equal to b
 }
 
@@ -57,7 +57,7 @@ export function isLessOrEqual(a, b) {
  * Example: compareStrings('apple', 'banana') -> negative number
  * Example: compareStrings('zebra', 'apple') -> positive number
  */
-export function compareStrings(str1, str2) {
+export function compareStrings (str1, str2) {
   // TODO: Compare the strings and return -1, 0, or 1
   // Hint: Use if statements with < and > operators
 }
@@ -72,7 +72,7 @@ export function compareStrings(str1, str2) {
  * Example: isLooselyEqual(5, '5') -> true
  * Example: isLooselyEqual(0, false) -> true
  */
-export function isLooselyEqual(a, b) {
+export function isLooselyEqual (a, b) {
   // TODO: Return true if a and b are loosely equal using ==
   // Note: This is for educational purposes. Use === in real code!
 }
@@ -87,7 +87,7 @@ export function isLooselyEqual(a, b) {
  * Example: isBetween(5, 1, 10) -> true
  * Example: isBetween(0, 1, 10) -> false
  */
-export function isBetween(x, min, max) {
+export function isBetween (x, min, max) {
   // TODO: Check if x is >= min AND x is <= max
   // Hint: Use the && operator with two comparisons
 }
@@ -101,7 +101,7 @@ export function isBetween(x, min, max) {
  * Example: isNullish(undefined) -> true
  * Example: isNullish(0) -> false
  */
-export function isNullish(value) {
+export function isNullish (value) {
   // TODO: Check if value is null or undefined
   // Hint: Use loose equality (==) with null to check for both
 }
@@ -116,6 +116,6 @@ export function isNullish(value) {
  * Example: compareValues(3, 8) -> 'less'
  * Example: compareValues(5, 5) -> 'equal'
  */
-export function compareValues(a, b) {
+export function compareValues (a, b) {
   // TODO: Use if/else if/else with comparison operators
 }

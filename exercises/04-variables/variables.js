@@ -8,7 +8,7 @@
  *
  * Return the user object.
  */
-export function createUserProfile(name, age) {
+export function createUserProfile (name, age) {
   // TODO: Declare a const variable 'user' with an object containing name, age, and isActive
   // TODO: Return the user object
 }
@@ -20,7 +20,7 @@ export function createUserProfile(name, age) {
  * Increment it by the amount specified in the parameter.
  * Return the final counter value.
  */
-export function updateCounter(increment) {
+export function updateCounter (increment) {
   // TODO: Declare a let variable 'counter' set to 0
   // TODO: Add the increment value to counter
   // TODO: Return the counter value
@@ -35,7 +35,7 @@ export function updateCounter(increment) {
  *
  * Then calculate and return width * height.
  */
-export function calculateRectangleArea(width, height) {
+export function calculateRectangleArea (width, height) {
   // TODO: Declare width and height as const variables in ONE statement
   // TODO: Return the area (width * height)
 }
@@ -48,7 +48,7 @@ export function calculateRectangleArea(width, height) {
  *
  * Return an object with both constants.
  */
-export function declareConstants() {
+export function declareConstants () {
   // TODO: Declare MAX_USERS as const, set to 100
   // TODO: Declare APP_NAME as const, set to 'MyApp'
   // TODO: Return an object with both: { MAX_USERS, APP_NAME }
@@ -63,7 +63,7 @@ export function declareConstants() {
  *
  * Return an object with both values.
  */
-export function useDescriptiveNames(firstName, lastName) {
+export function useDescriptiveNames (firstName, lastName) {
   // TODO: Declare 'fullName' as a const - combine firstName + " " + lastName
   // TODO: Declare 'nameLength' as a const - get the length of fullName
   // TODO: Return { fullName, nameLength }
@@ -79,7 +79,7 @@ export function useDescriptiveNames(firstName, lastName) {
  *
  * Return an object with both values.
  */
-export function demonstrateLetVsConst(initialScore, bonusPoints) {
+export function demonstrateLetVsConst (initialScore, bonusPoints) {
   // TODO: Declare 'score' as let, set to initialScore
   // TODO: Add bonusPoints to score
   // TODO: Declare 'maxScore' as const, set to 100

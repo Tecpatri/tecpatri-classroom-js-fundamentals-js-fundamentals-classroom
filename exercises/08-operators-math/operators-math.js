@@ -12,7 +12,7 @@
  *
  * Example: add(2, 3) -> 5
  */
-export function add(a, b) {
+export function add (a, b) {
   // TODO: Return the sum of a and b
 }
 
@@ -24,7 +24,7 @@ export function add(a, b) {
  *
  * Example: subtract(10, 3) -> 7
  */
-export function subtract(a, b) {
+export function subtract (a, b) {
   // TODO: Return the difference of a and b
 }
 
@@ -36,7 +36,7 @@ export function subtract(a, b) {
  *
  * Example: multiply(4, 5) -> 20
  */
-export function multiply(a, b) {
+export function multiply (a, b) {
   // TODO: Return the product of a and b
 }
 
@@ -48,7 +48,7 @@ export function multiply(a, b) {
  *
  * Example: divide(10, 2) -> 5
  */
-export function divide(a, b) {
+export function divide (a, b) {
   // TODO: Return the quotient of a divided by b
 }
 
@@ -60,7 +60,7 @@ export function divide(a, b) {
  *
  * Example: remainder(10, 3) -> 1
  */
-export function remainder(a, b) {
+export function remainder (a, b) {
   // TODO: Return the remainder using the % operator
 }
 
@@ -72,7 +72,7 @@ export function remainder(a, b) {
  *
  * Example: power(2, 3) -> 8
  */
-export function power(a, b) {
+export function power (a, b) {
   // TODO: Return a raised to the power of b using the ** operator
 }
 
@@ -84,7 +84,7 @@ export function power(a, b) {
  *
  * Example: concatenate("Hello", "World") -> "Hello World"
  */
-export function concatenate(str1, str2) {
+export function concatenate (str1, str2) {
   // TODO: Concatenate str1 and str2 with a space between them
 }
 
@@ -96,7 +96,7 @@ export function concatenate(str1, str2) {
  * Example: convertToNumber("123") -> 123
  * Example: convertToNumber(true) -> 1
  */
-export function convertToNumber(value) {
+export function convertToNumber (value) {
   // TODO: Use unary plus (+) to convert value to a number
 }
 
@@ -108,7 +108,7 @@ export function convertToNumber(value) {
  *
  * Example: incrementByRef({value: 5}) -> 6 (and obj.value is now 6)
  */
-export function incrementByRef(obj) {
+export function incrementByRef (obj) {
   // TODO: Use prefix increment (++obj.value) and return the new value
 }
 
@@ -121,7 +121,7 @@ export function incrementByRef(obj) {
  *
  * Example: addAndAssign({value: 10}, 5) -> 15 (and obj.value is now 15)
  */
-export function addAndAssign(obj, num) {
+export function addAndAssign (obj, num) {
   // TODO: Use += to add num to obj.value and return the new value
 }
 
@@ -135,6 +135,6 @@ export function addAndAssign(obj, num) {
  * Example: sumStringNumbers('3', '5') -> 8
  * Example: sumStringNumbers('10', '20') -> 30
  */
-export function sumStringNumbers(str1, str2) {
+export function sumStringNumbers (str1, str2) {
   // TODO: Use unary plus (+) to convert both strings to numbers and return their sum
 }
