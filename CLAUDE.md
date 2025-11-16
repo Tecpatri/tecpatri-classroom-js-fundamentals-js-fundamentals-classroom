@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is a JavaScript fundamentals learning repository with 17 progressive exercises covering basic JavaScript concepts from the javascript.info curriculum. Each exercise is self-contained with its own starter file, comprehensive Jest tests, and detailed README.
+This is a JavaScript fundamentals learning repository with 23 progressive exercises covering basic JavaScript concepts from the javascript.info curriculum. Each exercise is self-contained with its own starter file, comprehensive Jest tests, and detailed README.
 
 ## Development Commands
 
@@ -35,7 +35,7 @@ npm run format
 ## Project Structure
 
 ### Exercise Organization
-- Each exercise lives in `exercises/XX-topic-name/` where XX is a two-digit number (01-17)
+- Each exercise lives in `exercises/XX-topic-name/` where XX is a two-digit number (01-23)
 - Every exercise folder contains:
   - `topic-name.js` - Student implementation file with exported functions (starter code with TODO comments)
   - `topic-name.spec.js` - Jest test file that imports and tests the implementation
@@ -60,6 +60,12 @@ All exercises are aligned with javascript.info lessons:
 15. Functions → https://javascript.info/function-basics
 16. Function expressions → https://javascript.info/function-expressions
 17. Arrow functions basics → https://javascript.info/arrow-functions-basics
+18. Objects → https://javascript.info/object
+19. Object references and copying → https://javascript.info/object-copy
+20. Garbage collection → https://javascript.info/garbage-collection
+21. Object methods, "this" → https://javascript.info/object-methods
+22. Constructor, operator "new" → https://javascript.info/constructor-new
+23. Optional chaining '?.' → https://javascript.info/optional-chaining
 
 ### Patterns
 - All JavaScript files use ES modules (`type: "module"` in package.json)

@@ -1,6 +1,6 @@
 # JavaScript Fundamentals – Classroom Template
 
-This repository contains 17 progressive exercises covering JavaScript fundamentals from [javascript.info](https://javascript.info). Each exercise includes:
+This repository contains 23 progressive exercises covering JavaScript fundamentals from [javascript.info](https://javascript.info). Each exercise includes:
 - Starter JavaScript file with TODO comments
 - Comprehensive Jest test suite (4-23 tests per exercise)
 - Detailed README with lesson links, concepts, and examples
@@ -40,6 +40,12 @@ npm test:watch
 15. [Functions](exercises/15-functions)
 16. [Function expressions](exercises/16-function-expressions)
 17. [Arrow functions, the basics](exercises/17-arrow-basics)
+18. [Objects](exercises/18-objects)
+19. [Object references and copying](exercises/19-object-references-copying)
+20. [Garbage collection](exercises/20-garbage-collection)
+21. [Object methods, "this"](exercises/21-object-methods-this)
+22. [Constructor, operator "new"](exercises/22-constructor-new)
+23. [Optional chaining '?.'](exercises/23-optional-chaining)
 
 ## Technology Stack
 
