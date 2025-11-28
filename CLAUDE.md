@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is a JavaScript fundamentals learning repository with 23 progressive exercises covering basic JavaScript concepts from the javascript.info curriculum. Each exercise is self-contained with its own starter file, comprehensive Jest tests, and detailed README.
+This is a JavaScript fundamentals learning repository with progressive exercises covering basic JavaScript concepts from the javascript.info curriculum. Each exercise is self-contained with its own starter file, comprehensive Jest tests, and detailed README.
 
 ## Development Commands
 

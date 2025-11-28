@@ -1,0 +1,48 @@
+name: Autograding Tests
+
+on:
+  push:
+  workflow_dispatch:
+  repository_dispatch:
+
+permissions:
+  checks: write
+  actions: read
+  contents: read
+
+jobs:
+  run-autograding-tests:
+    runs-on: ubuntu-latest
+    if: github.actor != 'github-classroom[bot]'
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run Jest test suite
+        id: jest-tests
+        uses: classroom-resources/autograding-io-grader@v1
+        with:
+          test-name: "Jest Test Suite"
+          id: "jest-tests"
+          command: "npm test"
+          comparison-method: "regex"
+          input: ""
+          expected-output: ".*"
+          timeout: 900
+
+      - name: Autograding Reporter
+        uses: classroom-resources/autograding-grading-reporter@v1
+        env:
+          JEST-TESTS_RESULTS: "${{ steps.jest-tests.outputs.result }}"
+        with:
+          runners: |
+            jest-tests
